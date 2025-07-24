@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #404040;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid grey;
+  width: 20%;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item span {
+  cursor: pointer;
+}
+
+.task-text {
+  cursor: pointer;
+  flex: 1;
+}
+
